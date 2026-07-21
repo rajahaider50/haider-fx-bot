@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "211991688914",
+    "firebase_url": "https://family-safety-platform-default-rtdb.firebaseio.com",
+    "project_id": "family-safety-platform",
+    "storage_bucket": "family-safety-platform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211991688914:android:5cf6b7d5e7b6595fbadf0b",
+        "android_client_info": {
+          "package_name": "com.family.safety.platform.by.raja.haider.ali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211991688914-k1g42unfr8jmfa22u61ip9tsfr9435si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.family.safety.platform.by.raja.haider.ali",
+            "certificate_hash": "f1485a07f2177bfbcc342b1bcb9af41123b90ccc"
+          }
+        },
+        {
+          "client_id": "211991688914-tp68jdr5n20dk2vhk0nr3b9aeg9aino2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwc7Ap2fiutnuLH7ozcFq6JSwCS_cZmlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211991688914-tp68jdr5n20dk2vhk0nr3b9aeg9aino2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Family Safety</string>
+
+    <string name="onboarding_title_1">Family Protection</string>
+    <string name="onboarding_desc_1">Keep your loved ones safe with real-time monitoring and alerts.</string>
+    <string name="onboarding_title_2">Location Tracking</string>
+    <string name="onboarding_desc_2">Know where your family members are at all times with live GPS tracking.</string>
+    <string name="onboarding_title_3">App Management</string>
+    <string name="onboarding_desc_3">Control screen time, block apps, and manage digital wellbeing.</string>
+    <string name="onboarding_title_4">Smart Automation</string>
+    <string name="onboarding_desc_4">Set rules and schedules for automatic device management.</string>
+
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your Family Safety account</string>
+    <string name="login_email_hint">Email Address</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_forgot">Forgot Password?</string>
+    <string name="login_register">Don\'t have an account? Sign Up</string>
+    <string name="login_google">Continue with Google</string>
+
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join Family Safety to protect your family</string>
+    <string name="register_name_hint">Full Name</string>
+    <string name="register_email_hint">Email Address</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_confirm_hint">Confirm Password</string>
+    <string name="register_button">Create Account</string>
+    <string name="register_login">Already have an account? Sign In</string>
+
+    <string name="forgot_title">Reset Password</string>
+    <string name="forgot_subtitle">Enter your email to receive a reset link</string>
+    <string name="forgot_button">Send Reset Link</string>
+
+    <string name="otp_title">Verify Email</string>
+    <string name="otp_subtitle">Enter the 6-digit code sent to your email</string>
+    <string name="otp_verify">Verify</string>
+    <string name="otp_resend">Resend Code</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_devices">Devices</string>
+    <string name="nav_location">Location</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="dashboard_greeting">Hello,</string>
+    <string name="dashboard_total_devices">Total Devices</string>
+    <string name="dashboard_online">Online</string>
+    <string name="dashboard_alerts">Alerts</string>
+    <string name="dashboard_locations">Locations</string>
+
+    <string name="device_paired">Paired</string>
+    <string name="device_online">Online</string>
+    <string name="device_offline">Offline</string>
+    <string name="device_battery">Battery</string>
+    <string name="device_pair_new">Pair New Device</string>
+    <string name="device_scan">Scan QR Code</string>
+
+    <string name="location_current">Current Location</string>
+    <string name="location_history">Location History</string>
+    <string name="location_geofence">Geofence</string>
+    <string name="location_add_geofence">Add Geofence</string>
+
+    <string name="settings_profile">Profile</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_admin">Admin Panel</string>
+    <string name="settings_about">About</string>
+    <string name="settings_logout">Sign Out</string>
+
+    <string name="admin_panel">Admin Panel</string>
+    <string name="admin_users">Manage Users</string>
+    <string name="admin_devices">All Devices</string>
+    <string name="admin_settings">App Settings</string>
+    <string name="admin_logs">System Logs</string>
+
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_enable">Enable</string>
+    <string name="btn_disable">Disable</string>
+    <string name="btn_apply">Apply</string>
+
+    <string name="error_email">Please enter a valid email</string>
+    <string name="error_password">Password must be at least 6 characters</string>
+    <string name="error_password_match">Passwords do not match</string>
+    <string name="error_name">Please enter your name</string>
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="error_general">Something went wrong</string>
+
+    <string name="success_login">Login successful</string>
+    <string name="success_register">Account created successfully</string>
+    <string name="success_password_reset">Password reset email sent</string>
+    <string name="success_otp">Email verified successfully</string>
+
+    <string name="permission_location">Location permission is required for family tracking</string>
+    <string name="permission_notification">Notification permission is required for alerts</string>
+
+    <string name="format_battery">%d%%</string>
+    <string name="format_time">%s • %s</string>
+    <string name="format_distance">%s km away</string>
+
+    <string name="loading">Loading…</string>
+    <string name="no_devices">No devices paired yet</string>
+    <string name="no_location">No location data</string>
+    <string name="empty_reports">No reports available</string>
+</resources>

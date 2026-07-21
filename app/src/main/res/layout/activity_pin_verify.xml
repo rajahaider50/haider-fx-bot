@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_lock"
+        android:contentDescription="Security"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter PIN"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Enter your 4-digit PIN to continue"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText android:id="@+id/etPin1"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp" />
+
+        <EditText android:id="@+id/etPin2"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp" />
+
+        <EditText android:id="@+id/etPin3"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp" />
+
+        <EditText android:id="@+id/etPin4"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/danger"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVerify"
+        style="@style/GlassButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="Verify"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tvBiometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Use Biometric"
+        android:textColor="@color/primary_light"
+        android:textSize="14sp"
+        android:padding="4dp"
+        android:visibility="gone" />
+</LinearLayout>

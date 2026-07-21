@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_email"
+        android:contentDescription="OTP"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Email"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Enter the 6-digit code sent to your email"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText android:id="@+id/etOtp1"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textColorHint="@color/text_hint" />
+
+        <EditText android:id="@+id/etOtp2"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+
+        <EditText android:id="@+id/etOtp3"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+
+        <EditText android:id="@+id/etOtp4"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+
+        <EditText android:id="@+id/etOtp5"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+
+        <EditText android:id="@+id/etOtp6"
+            android:layout_width="52dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg_otp_box"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVerify"
+        style="@style/GlassButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="Verify"
+        android:textSize="16sp"
+        android:textAllCaps="false" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:indeterminateTint="@color/primary_light"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvResend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Resend Code"
+        android:textColor="@color/primary_light"
+        android:textSize="14sp"
+        android:padding="4dp" />
+</LinearLayout>

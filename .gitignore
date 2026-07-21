@@ -1,0 +1,29 @@
+# Built files
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/app/build/
+/build/
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Cloudinary (never commit API secret)
+cloudinary_config.json
+
+# Firebase
+firebase-debug.log
+firestore-debug.log
+database-debug.log
+
+# Node
+node_modules/
+functions/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~

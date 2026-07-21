@@ -1,0 +1,157 @@
+{
+  "rules": {
+
+    "users": {
+      "$userId": {
+        ".read": "auth != null && (auth.uid == $userId || root.child('admin').child(auth.uid).exists())",
+        ".write": "auth != null && (auth.uid == $userId || root.child('admin').child(auth.uid).exists())"
+      }
+    },
+
+    "families": {
+      "$familyId": {
+        ".read": "auth != null",
+        ".write": "auth != null && (data.child('createdBy').val() == auth.uid || !data.exists() || root.child('admin').child(auth.uid).exists())",
+        "children": {
+          "$childId": {
+            ".read": "auth != null",
+            ".write": "auth != null && (root.child('families').child($familyId).child('createdBy').val() == auth.uid || root.child('admin').child(auth.uid).exists())"
+          }
+        }
+      }
+    },
+
+    "devices": {
+      "$deviceId": {
+        ".read": "auth != null && (data.child('userId').val() == auth.uid || root.child('admin').child(auth.uid).exists())",
+        ".write": "auth != null && (data.child('userId').val() == auth.uid || root.child('admin').child(auth.uid).exists())"
+      }
+    },
+
+    "commands": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "locations": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "geofences": {
+      "$geofenceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "app_usage": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "notifications": {
+      "$userId": {
+        ".read": "auth != null && auth.uid == $userId",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    },
+
+    "automation_rules": {
+      "$ruleId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "activity_logs": {
+      "$logId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "settings": {
+      "$settingKey": {
+        ".read": "auth != null",
+        ".write": "auth != null && root.child('admin').child(auth.uid).exists()"
+      }
+    },
+
+    "admin": {
+      "$userId": {
+        ".read": "auth != null && root.child('admin').child(auth.uid).exists()",
+        ".write": "auth != null && root.child('admin').child(auth.uid).child('role').val() == 'super_admin'"
+      }
+    },
+
+    "system_config": {
+      "$configKey": {
+        ".read": "auth != null",
+        ".write": "auth != null && root.child('admin').child(auth.uid).exists()"
+      }
+    },
+
+    "online_status": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "live_location": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "device_status": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "screen_state": {
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "active_sessions": {
+      "$userId": {
+        ".read": "auth != null && auth.uid == $userId",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    },
+
+    "presence": {
+      "$userId": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    },
+
+    "media": {
+      "$mediaId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+
+    "reports": {
+      "$reportId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}
