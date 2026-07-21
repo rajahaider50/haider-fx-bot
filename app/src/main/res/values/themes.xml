@@ -103,17 +103,10 @@
         <item name="backgroundTint">@color/bg_card</item>
         <item name="itemIconTint">@color/nav_item_color</item>
         <item name="itemTextColor">@color/nav_item_color</item>
-        <item name="itemActiveIndicatorStyle">@style/NavIndicator</item>
         <item name="elevation">12dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="labelVisibilityMode">labeled</item>
-    </style>
-
-    <style name="NavIndicator" parent="Widget.MaterialComponents.BottomNavigationView.ActiveIndicatorView">
-        <item name="android:color">@color/nav_indicator</item>
-        <item name="android:width">64dp</item>
-        <item name="android:height">32dp</item>
     </style>
 
 </resources>
