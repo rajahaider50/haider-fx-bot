@@ -8,6 +8,8 @@ import com.family.safety.platform.by.raja.haider.ali.R
 import com.family.safety.platform.by.raja.haider.ali.ui.home.MainActivity
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class FcmService : FirebaseMessagingService() {
 
@@ -16,7 +18,7 @@ class FcmService : FirebaseMessagingService() {
         val prefManager = com.family.safety.platform.by.raja.haider.ali.storage.PreferenceManager(this)
         if (prefManager.userId.isNotEmpty()) {
             val repo = com.family.safety.platform.by.raja.haider.ali.repository.AuthRepository()
-            kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+            kotlinx.coroutines.GlobalScope.launch(kotlinx.coroutines.Dispatchers.IO) {
                 repo.updateFcmToken(prefManager.userId, token)
             }
         }

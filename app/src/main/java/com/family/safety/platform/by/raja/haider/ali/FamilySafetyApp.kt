@@ -25,7 +25,7 @@ class FamilySafetyApp : Application() {
         FirebaseDatabase.getInstance().setPersistenceEnabled(true)
 
         if (BuildConfig.DEBUG) {
-            FirebaseCrashlytics.getInstance().isCrashlyticsCollectionEnabled = false
+            FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(false)
         }
 
         createNotificationChannels()

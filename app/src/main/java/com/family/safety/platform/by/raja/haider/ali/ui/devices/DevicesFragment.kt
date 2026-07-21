@@ -43,7 +43,7 @@ class DevicesFragment : Fragment() {
 
         rvDevices.apply {
             layoutManager = LinearLayoutManager(requireContext())
-            adapter = adapter
+            this.adapter = adapter
         }
 
         val uid = prefManager.userId

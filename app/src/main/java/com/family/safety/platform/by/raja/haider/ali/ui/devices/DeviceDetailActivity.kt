@@ -1,6 +1,7 @@
 package com.family.safety.platform.by.raja.haider.ali.ui.devices
 
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
