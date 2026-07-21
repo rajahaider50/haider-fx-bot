@@ -21,6 +21,5 @@
         app:itemIconTint="@color/nav_item_color"
         app:itemTextColor="@color/nav_item_color"
         app:labelVisibilityMode="labeled"
-        app:elevation="16dp"
-        app:itemActiveIndicatorStyle="@style/NavIndicator" />
+        app:elevation="16dp" />
 </LinearLayout>

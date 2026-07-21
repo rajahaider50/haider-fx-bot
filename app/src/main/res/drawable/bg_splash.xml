@@ -13,7 +13,7 @@
         android:gravity="center"
         android:width="120dp"
         android:height="120dp">
-        <shape android:shape="circle">
+        <shape android:shape="oval">
             <solid android:color="#33FFFFFF" />
             <stroke android:width="2dp" android:color="#44FFFFFF" />
         </shape>
@@ -22,7 +22,7 @@
         android:gravity="center"
         android:width="80dp"
         android:height="80dp">
-        <shape android:shape="circle">
+        <shape android:shape="oval">
             <solid android:color="#44FFFFFF" />
         </shape>
     </item>
