@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:text="Hello,"
                     android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tvUserName"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:text="Parent"
                     android:textColor="@color/text_primary"
-                    android:textSize="22sp"
+                    android:textSize="22sp" />
             </LinearLayout>
 
             <FrameLayout
@@ -90,14 +90,14 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textColor="@color/text_primary"
-                    android:textSize="28sp"
+                    android:textSize="28sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Total Devices"
                     android:textColor="@color/text_secondary"
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -128,14 +128,14 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textColor="@color/success"
-                    android:textSize="28sp"
+                    android:textSize="28sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Online"
                     android:textColor="@color/text_secondary"
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -173,14 +173,14 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textColor="@color/warning"
-                    android:textSize="28sp"
+                    android:textSize="28sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Alerts"
                     android:textColor="@color/text_secondary"
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -211,14 +211,14 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textColor="@color/info"
-                    android:textSize="28sp"
+                    android:textSize="28sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Locations"
                     android:textColor="@color/text_secondary"
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -235,7 +235,7 @@
                 android:layout_weight="1"
                 android:text="Recent Devices"
                 android:textColor="@color/text_primary"
-                android:textSize="18sp"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/tvViewAll"

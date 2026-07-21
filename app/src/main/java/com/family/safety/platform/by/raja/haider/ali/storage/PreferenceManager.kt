@@ -1,4 +1,4 @@
-package com.family.safety.platform.by.raja.haider.ali.util
+package com.family.safety.platform.by.raja.haider.ali.storage
 
 import android.content.Context
 import android.content.SharedPreferences

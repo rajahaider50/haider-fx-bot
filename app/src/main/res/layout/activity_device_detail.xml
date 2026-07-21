@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Device Details"
         android:textColor="@color/text_primary"
-        android:textSize="22sp"
+        android:textSize="22sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:text="Device"
                         android:textColor="@color/text_primary"
-                        android:textSize="18sp"
+                        android:textSize="18sp" />
                     <TextView
                         android:id="@+id/tvDeviceModel"
                         android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:text="100%"
                         android:textColor="@color/text_primary"
-                        android:textSize="20sp"
+                        android:textSize="20sp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:text="0h"
                         android:textColor="@color/text_primary"
-                        android:textSize="20sp"
+                        android:textSize="20sp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
                         android:layout_height="wrap_content"
                         android:text="—"
                         android:textColor="@color/text_primary"
-                        android:textSize="14sp"
+                        android:textSize="14sp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

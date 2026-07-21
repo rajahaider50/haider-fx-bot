@@ -38,8 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="Rule Name"
                 android:textColor="@color/text_primary"
-                android:textSize="15sp"
-                android:fontFamily="@font/inter_semi_bold" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/tvRuleDescription"
@@ -48,7 +47,6 @@
                 android:text="When trigger → then action"
                 android:textColor="@color/text_secondary"
                 android:textSize="12sp"
-                android:fontFamily="@font/inter_regular"
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 

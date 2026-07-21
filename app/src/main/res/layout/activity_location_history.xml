@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Location History"
         android:textColor="@color/text_primary"
-        android:textSize="22sp"
+        android:textSize="22sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvHistory"

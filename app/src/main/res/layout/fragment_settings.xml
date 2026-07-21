@@ -54,14 +54,14 @@
                     android:layout_height="wrap_content"
                     android:text="User"
                     android:textColor="@color/text_primary"
-                    android:textSize="16sp"
+                    android:textSize="16sp" />
                 <TextView
                     android:id="@+id/tvProfileEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="user@email.com"
                     android:textColor="@color/text_secondary"
-                    android:textSize="12sp"
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
 

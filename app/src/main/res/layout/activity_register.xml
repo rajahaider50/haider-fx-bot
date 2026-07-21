@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="Create Account"
             android:textColor="@color/text_primary"
-            android:textSize="28sp"
+            android:textSize="28sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
             android:layout_marginTop="8dp"
             android:text="Join Family Safety to protect your family"
             android:textColor="@color/text_secondary"
-            android:textSize="14sp"
+            android:textSize="14sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilName"
@@ -46,7 +46,7 @@
                 android:layout_height="56dp"
                 android:inputType="textPersonName"
                 android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_hint"
+                android:textColorHint="@color/text_hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -65,7 +65,7 @@
                 android:layout_height="56dp"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_hint"
+                android:textColorHint="@color/text_hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -86,7 +86,7 @@
                 android:layout_height="56dp"
                 android:inputType="textPassword"
                 android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_hint"
+                android:textColorHint="@color/text_hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -107,7 +107,7 @@
                 android:layout_height="56dp"
                 android:inputType="textPassword"
                 android:textColor="@color/text_primary"
-                android:textColorHint="@color/text_hint"
+                android:textColorHint="@color/text_hint" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton

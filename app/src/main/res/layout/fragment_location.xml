@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="Current"
                 android:textColor="@color/text_hint"
-                android:textSize="11sp"
+                android:textSize="11sp" />
 
             <TextView
                 android:id="@+id/tvCurrentAddress"
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:text="Last Update"
                 android:textColor="@color/text_hint"
-                android:textSize="11sp"
+                android:textSize="11sp" />
 
             <TextView
                 android:id="@+id/tvLastUpdate"

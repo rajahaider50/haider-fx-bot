@@ -19,7 +19,6 @@
             android:text="Add Automation Rule"
             android:textColor="@color/text_primary"
             android:textSize="22sp"
-            android:fontFamily="@font/inter_bold"
             android:layout_marginBottom="20dp" />
 
         <com.google.android.material.textfield.TextInputLayout

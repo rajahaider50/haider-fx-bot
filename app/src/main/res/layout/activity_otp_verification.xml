@@ -61,7 +61,7 @@
             android:inputType="number"
             android:maxLength="1"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
+            android:textSize="22sp" />
 
         <EditText android:id="@+id/etOtp3"
             android:layout_width="52dp"
@@ -72,7 +72,7 @@
             android:inputType="number"
             android:maxLength="1"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
+            android:textSize="22sp" />
 
         <EditText android:id="@+id/etOtp4"
             android:layout_width="52dp"
@@ -83,7 +83,7 @@
             android:inputType="number"
             android:maxLength="1"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
+            android:textSize="22sp" />
 
         <EditText android:id="@+id/etOtp5"
             android:layout_width="52dp"
@@ -94,7 +94,7 @@
             android:inputType="number"
             android:maxLength="1"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
+            android:textSize="22sp" />
 
         <EditText android:id="@+id/etOtp6"
             android:layout_width="52dp"
@@ -105,7 +105,7 @@
             android:inputType="number"
             android:maxLength="1"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
+            android:textSize="22sp" />
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton

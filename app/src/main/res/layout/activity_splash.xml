@@ -47,7 +47,7 @@
             android:layout_marginTop="8dp"
             android:text="Protect what matters most"
             android:textColor="@color/text_secondary"
-            android:textSize="14sp"
+            android:textSize="14sp" />
 
         <ProgressBar
             android:layout_width="40dp"

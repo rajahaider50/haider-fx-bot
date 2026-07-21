@@ -19,8 +19,7 @@
             android:layout_weight="1"
             android:text="Automation"
             android:textColor="@color/text_primary"
-            android:textSize="22sp"
-            android:fontFamily="@font/inter_bold" />
+            android:textSize="22sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnAddRule"

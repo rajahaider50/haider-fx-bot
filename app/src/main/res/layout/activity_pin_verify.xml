@@ -21,7 +21,6 @@
         android:text="Enter PIN"
         android:textColor="@color/text_primary"
         android:textSize="26sp"
-        android:fontFamily="@font/inter_bold"
         android:gravity="center" />
 
     <TextView
